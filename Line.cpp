@@ -9,7 +9,9 @@ end = E;
 
 }
 
-
+Line::Line(){
+  
+}
 
 // This is new
 
@@ -22,12 +24,12 @@ start.print();
 
 cout << " End";
 
-start.print();
+end.print();
 
 cout << endl;
 
 }
 
 double Line::Linelength(){
-  return start.calcdistance(end);
+  return start.calcDistance(end);
 }

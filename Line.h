@@ -4,6 +4,8 @@ class Line{
   public:
     Line(Point S, Point E);
   void print();
+double Linelength();
+Line();
 
 private:
   Point start;
